@@ -1,0 +1,22 @@
+{
+  "name": "ta35",
+  "version": "1.0.0",
+  "description": "ejemplo de npm en contexto de js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./build/src/main.js",
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "npm",
+    "js"
+  ],
+  "author": "ManelCC",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "typescript": "^5.3.2"
+  }
+}
